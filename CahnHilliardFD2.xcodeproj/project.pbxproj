@@ -17,17 +17,21 @@
 		8A3AEC211B6821E500B75949 /* randn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A3AEC161B6821E500B75949 /* randn.cpp */; };
 		8A3AEC231B6821E500B75949 /* simulator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A3AEC191B6821E500B75949 /* simulator.cpp */; };
 		8A3AEC241B6821E500B75949 /* util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A3AEC1B1B6821E500B75949 /* util.cpp */; };
+		8A3AEC251B6826D600B75949 /* kernel_float_2d.cl in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A3AEC001B6821D100B75949 /* kernel_float_2d.cl */; };
+		8A3AEC261B6826D600B75949 /* kernel_float_3d.cl in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A3AEC011B6821D100B75949 /* kernel_float_3d.cl */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		8A3AEBF11B68200900B75949 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 7;
 			files = (
+				8A3AEC251B6826D600B75949 /* kernel_float_2d.cl in CopyFiles */,
+				8A3AEC261B6826D600B75949 /* kernel_float_3d.cl in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 

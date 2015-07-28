@@ -58,6 +58,16 @@
             ReferencedContainer = "container:CahnHilliardFD2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "/Users/yue/Dropbox/Documents/Work/OpenCL/CahnHilliardFD2/CahnHilliardFD2/input"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "-2"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
