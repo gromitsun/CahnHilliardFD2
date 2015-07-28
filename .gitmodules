@@ -1,0 +1,6 @@
+[submodule "cl_common"]
+	path = cl_common
+	url = https://github.com/gromitsun/cl_common.git
+[submodule "sim_common"]
+	path = sim_common
+	url = https://github.com/gromitsun/sim_common.git

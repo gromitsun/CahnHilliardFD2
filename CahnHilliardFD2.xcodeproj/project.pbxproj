@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		8A3AEBF71B68200900B75949 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A3AEBF61B68200900B75949 /* main.cpp */; };
+		8A3AEC061B6821D100B75949 /* input.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A3AEBFD1B6821D100B75949 /* input.cpp */; };
+		8A3AEC071B6821D100B75949 /* kernel_float_2d.cl in Sources */ = {isa = PBXBuildFile; fileRef = 8A3AEC001B6821D100B75949 /* kernel_float_2d.cl */; };
+		8A3AEC081B6821D100B75949 /* kernel_float_3d.cl in Sources */ = {isa = PBXBuildFile; fileRef = 8A3AEC011B6821D100B75949 /* kernel_float_3d.cl */; };
+		8A3AEC091B6821D100B75949 /* simulator_2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A3AEC021B6821D100B75949 /* simulator_2d.cpp */; };
+		8A3AEC0A1B6821D100B75949 /* simulator_3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A3AEC041B6821D100B75949 /* simulator_3d.cpp */; };
+		8A3AEC1D1B6821E500B75949 /* cl_common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A3AEC0D1B6821E500B75949 /* cl_common.cpp */; };
+		8A3AEC211B6821E500B75949 /* randn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A3AEC161B6821E500B75949 /* randn.cpp */; };
+		8A3AEC231B6821E500B75949 /* simulator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A3AEC191B6821E500B75949 /* simulator.cpp */; };
+		8A3AEC241B6821E500B75949 /* util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A3AEC1B1B6821E500B75949 /* util.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +34,22 @@
 /* Begin PBXFileReference section */
 		8A3AEBF31B68200900B75949 /* CahnHilliardFD2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CahnHilliardFD2; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A3AEBF61B68200900B75949 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8A3AEBFD1B6821D100B75949 /* input.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = input.cpp; sourceTree = "<group>"; };
+		8A3AEBFE1B6821D100B75949 /* input.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = input.hpp; sourceTree = "<group>"; };
+		8A3AEC001B6821D100B75949 /* kernel_float_2d.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; path = kernel_float_2d.cl; sourceTree = "<group>"; };
+		8A3AEC011B6821D100B75949 /* kernel_float_3d.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; path = kernel_float_3d.cl; sourceTree = "<group>"; };
+		8A3AEC021B6821D100B75949 /* simulator_2d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = simulator_2d.cpp; sourceTree = "<group>"; };
+		8A3AEC031B6821D100B75949 /* simulator_2d.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = simulator_2d.hpp; sourceTree = "<group>"; };
+		8A3AEC041B6821D100B75949 /* simulator_3d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = simulator_3d.cpp; sourceTree = "<group>"; };
+		8A3AEC051B6821D100B75949 /* simulator_3d.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = simulator_3d.hpp; sourceTree = "<group>"; };
+		8A3AEC0D1B6821E500B75949 /* cl_common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cl_common.cpp; sourceTree = "<group>"; };
+		8A3AEC0E1B6821E500B75949 /* cl_common.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cl_common.hpp; sourceTree = "<group>"; };
+		8A3AEC161B6821E500B75949 /* randn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = randn.cpp; sourceTree = "<group>"; };
+		8A3AEC171B6821E500B75949 /* randn.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = randn.hpp; sourceTree = "<group>"; };
+		8A3AEC191B6821E500B75949 /* simulator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = simulator.cpp; sourceTree = "<group>"; };
+		8A3AEC1A1B6821E500B75949 /* simulator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = simulator.hpp; sourceTree = "<group>"; };
+		8A3AEC1B1B6821E500B75949 /* util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = util.cpp; sourceTree = "<group>"; };
+		8A3AEC1C1B6821E500B75949 /* util.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = util.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				8A3AEBF51B68200900B75949 /* CahnHilliardFD2 */,
+				8A3AEC0B1B6821E500B75949 /* cl_common */,
+				8A3AEC121B6821E500B75949 /* sim_common */,
 				8A3AEBF41B68200900B75949 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,8 +85,46 @@
 			isa = PBXGroup;
 			children = (
 				8A3AEBF61B68200900B75949 /* main.cpp */,
+				8A3AEBFD1B6821D100B75949 /* input.cpp */,
+				8A3AEBFE1B6821D100B75949 /* input.hpp */,
+				8A3AEBFF1B6821D100B75949 /* kernels */,
+				8A3AEC021B6821D100B75949 /* simulator_2d.cpp */,
+				8A3AEC031B6821D100B75949 /* simulator_2d.hpp */,
+				8A3AEC041B6821D100B75949 /* simulator_3d.cpp */,
+				8A3AEC051B6821D100B75949 /* simulator_3d.hpp */,
 			);
 			path = CahnHilliardFD2;
+			sourceTree = "<group>";
+		};
+		8A3AEBFF1B6821D100B75949 /* kernels */ = {
+			isa = PBXGroup;
+			children = (
+				8A3AEC001B6821D100B75949 /* kernel_float_2d.cl */,
+				8A3AEC011B6821D100B75949 /* kernel_float_3d.cl */,
+			);
+			path = kernels;
+			sourceTree = "<group>";
+		};
+		8A3AEC0B1B6821E500B75949 /* cl_common */ = {
+			isa = PBXGroup;
+			children = (
+				8A3AEC0D1B6821E500B75949 /* cl_common.cpp */,
+				8A3AEC0E1B6821E500B75949 /* cl_common.hpp */,
+			);
+			path = cl_common;
+			sourceTree = "<group>";
+		};
+		8A3AEC121B6821E500B75949 /* sim_common */ = {
+			isa = PBXGroup;
+			children = (
+				8A3AEC161B6821E500B75949 /* randn.cpp */,
+				8A3AEC171B6821E500B75949 /* randn.hpp */,
+				8A3AEC191B6821E500B75949 /* simulator.cpp */,
+				8A3AEC1A1B6821E500B75949 /* simulator.hpp */,
+				8A3AEC1B1B6821E500B75949 /* util.cpp */,
+				8A3AEC1C1B6821E500B75949 /* util.hpp */,
+			);
+			path = sim_common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +183,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A3AEC061B6821D100B75949 /* input.cpp in Sources */,
+				8A3AEC231B6821E500B75949 /* simulator.cpp in Sources */,
+				8A3AEC071B6821D100B75949 /* kernel_float_2d.cl in Sources */,
 				8A3AEBF71B68200900B75949 /* main.cpp in Sources */,
+				8A3AEC211B6821E500B75949 /* randn.cpp in Sources */,
+				8A3AEC081B6821D100B75949 /* kernel_float_3d.cl in Sources */,
+				8A3AEC091B6821D100B75949 /* simulator_2d.cpp in Sources */,
+				8A3AEC241B6821E500B75949 /* util.cpp in Sources */,
+				8A3AEC1D1B6821E500B75949 /* cl_common.cpp in Sources */,
+				8A3AEC0A1B6821D100B75949 /* simulator_3d.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +309,7 @@
 				8A3AEBFC1B68200900B75949 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
